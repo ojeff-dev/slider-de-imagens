@@ -1,5 +1,5 @@
 body {
-    background: lightblue;
+    background: radial-gradient(circle at 72.92% 22.69%, #d971ff 0, #ae58ff 25%, #783cf2 50%, #2424df 75%, #0018cf 100%);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +16,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
 }
 .imagem img {
     width: 100%;
@@ -25,13 +26,13 @@ body {
 .navegacao {
     position: absolute;
     bottom: 40px;
-    left: 800px;
+    left: 820px;
     display: flex;
 }
 
 .navegacao label {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border: 2px solid white;
     margin: 6px;
     border-radius: 15px;

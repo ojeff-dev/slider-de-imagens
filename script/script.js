@@ -7,4 +7,4 @@ setInterval(function() {
     if(contador > 10) {
         contador = 1;
     }
-}, 3000)
+}, 10000)
